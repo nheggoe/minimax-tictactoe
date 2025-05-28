@@ -1,1 +1,1 @@
-rootProject.name = "untitled"
+rootProject.name = "Tic-Tac-Toe-with-AI"

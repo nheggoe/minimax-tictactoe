@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "dev.nheggoe"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -23,12 +23,9 @@ tasks.named<JavaExec>("run") {
     standardInput = System.`in`
 }
 
-
 application {
     // Define the main class for the application.
     mainClass = "dev.nheggoe.tictactoe.Launcher"
 }
-
-
 
 defaultTasks("run")
