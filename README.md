@@ -19,9 +19,10 @@ This is a simple CLI game demonstrating the minimax algorithm. It accepts two co
 - **Start a game**
   
   ```bash
-  start <playerOne (X)> <playerTwo (O)>
+  start <playerOne> <playerTwo>
   ```
-  where valid options for each player are: `user`, `easy`, `medium`, `hard`.
+  where playerOne represents `X` and playerTwo represents `O`,
+  valid options for each player are: `user`, `easy`, `medium`, `hard`.
 
   - `user` — A human player. You’ll be prompted to enter coordinates in the format `<row> <column>` with valid inputs being 1–3.
   - `easy` — AI makes random moves.
